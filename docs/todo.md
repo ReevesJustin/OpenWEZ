@@ -1,6 +1,3 @@
-~~add an early termination for solvers when velocity = 0 to prevent overflow or NaN situations.~~ ✓ COMPLETED (2026-01-02)
-~~export results to report, tables~~ ✓ COMPLETED (2026-01-02) - CSV export for trajectory and Monte Carlo
-
 ## Dark/Light Mode Toggle
 
 Implement theme switching with CSS Variables + Zustand Store (Option 1)
