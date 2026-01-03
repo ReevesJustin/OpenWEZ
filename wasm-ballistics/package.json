@@ -1,0 +1,15 @@
+{
+  "name": "wasm-ballistics",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "wasm_ballistics_bg.wasm",
+    "wasm_ballistics.js",
+    "wasm_ballistics.d.ts"
+  ],
+  "main": "wasm_ballistics.js",
+  "types": "wasm_ballistics.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

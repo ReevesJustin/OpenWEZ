@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+/packages/*/node_modules/
+
+# Build outputs
+dist/
+build/
+/packages/*/dist/
+/packages/*/build/
+
+# Rust/WASM
+target/
+Cargo.lock
+/packages/wasm-ballistics/target/
+/packages/wasm-ballistics/pkg/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Documentation
+docs/
+
+# Hidden directories
+.*/
